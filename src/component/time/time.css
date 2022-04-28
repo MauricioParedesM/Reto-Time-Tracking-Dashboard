@@ -1,4 +1,4 @@
-.time{
+.time {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -6,7 +6,7 @@
     padding: 25px;
 }
 
-.time li{
+.time li {
     list-style: none;
     color: var(--Pale-Blue);
     padding-bottom: 15px;
@@ -15,18 +15,20 @@
     font-size: 0.9rem;
     cursor: pointer;
 }
-.time li:hover, .time li.active{
+
+.time li:hover,
+.time li.active {
     color: #fff;
 }
 
 @media (max-width: 375px) {
-    .time{
+    .time {
         width: 100%;
     }
-    .time li{
+    .time li {
         font-size: 1.1rem;
     }
-    .tabs{
+    .tabs {
         display: flex;
         width: 100%;
         justify-content: space-evenly;
