@@ -1,0 +1,31 @@
+.cardreport {
+    background-color: var(--Dark-blue);
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 5px;
+}
+
+.bottom span {
+    color: var(--Pale-Blue);
+    font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+    .cardreport {
+        margin: 0;
+    }
+    .bottom {
+        flex-direction: column;
+    }
+    .bottom span {
+        padding: 8px 20px;
+    }
+}

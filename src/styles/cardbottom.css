@@ -1,0 +1,52 @@
+.card-bottom {
+    grid-column: 1/3;
+    background: var(--Dark-blue);
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 17px;
+    padding-right: 17px;
+    z-index: 1;
+}
+
+.card-bottom div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-bottom div:first-child {
+    margin-bottom: 3px;
+}
+
+.text1 {
+    color: white;
+    font-size: 10px;
+}
+
+.text2 {
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.text3 {
+    color: var(--Pale-Blue);
+    font-size: 12px;
+}
+
+@media (min-width: 1024px) {
+    .card-bottom div:nth-child(2) {
+        display: block;
+    }
+    .text1 {
+        font-size: 15px;
+    }
+    .text2 {
+        display: block;
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    .card-bottom div:first-child {
+        margin-bottom: 10px;
+    }
+}
